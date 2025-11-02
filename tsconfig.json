@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ES2022",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+     "types": ["node", "@playwright/test"],
+    "outDir": "dist"
+  },
+  "include": [
+    "e2e/specs/**/*.ts",
+    "playwright.config.ts"
+,   "e2e/fixture.ts"  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "allure-results",
+    "allure-report",
+    "playwright-report"
+  ]
+}
