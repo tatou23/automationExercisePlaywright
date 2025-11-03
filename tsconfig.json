@@ -14,7 +14,8 @@
   "include": [
     "e2e/specs/**/*.ts",
     "playwright.config.ts"
-,   "e2e/fixture.ts"  ],
+,   "e2e/fixture.ts",
+    "e2e/setup/*.setup.ts"],
   "exclude": [
     "node_modules",
     "dist",
